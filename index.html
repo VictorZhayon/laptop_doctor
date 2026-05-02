@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Doctor | Expert Laptop Repairs & Sales</title>
+    <meta name="description" content="Laptop Doctor - Your trusted dealer for all kinds of laptops. Expert repairs, batteries, chargers, software installation and laptop skins.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">🔧</span>
+                <span class="logo-text">LAPTOP<span class="logo-accent">DOCTOR</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="https://wa.me/2349051984480" class="nav-cta" target="_blank">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                WhatsApp Us
+            </a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-glow"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">⚡ Trusted Laptop Experts</div>
+                <h1 class="hero-title">
+                    <span class="title-line">LAPTOP</span>
+                    <span class="title-line accent">DOCTOR</span>
+                </h1>
+                <p class="hero-subtitle">Dealers of All Kinds of Laptops</p>
+                <p class="hero-desc">Expert repairs, genuine accessories, professional software installation, and premium laptop skins — all under one roof.</p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/2349051984480" class="btn btn-primary" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Chat on WhatsApp
+                    </a>
+                    <a href="#services" class="btn btn-outline">Our Services ↓</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat"><span class="stat-num" data-target="500">0</span>+ <span class="stat-label">Laptops Sold</span></div>
+                    <div class="stat-divider"></div>
+                    <div class="stat"><span class="stat-num" data-target="1000">0</span>+ <span class="stat-label">Repairs Done</span></div>
+                    <div class="stat-divider"></div>
+                    <div class="stat"><span class="stat-num" data-target="98">0</span>% <span class="stat-label">Satisfaction</span></div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-glow"></div>
+                <img src="images/hero-laptop.png" alt="Laptop with repair tools" loading="eager">
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll Down</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">What We Do</span>
+                <h2 class="section-title">Our <span class="text-gradient">Services</span></h2>
+                <p class="section-desc">From repairs to accessories, we've got all your laptop needs covered with expert care and genuine parts.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">💻</div>
+                    <div class="service-img"><img src="images/hero-laptop.png" alt="Laptop Sales"></div>
+                    <h3>Laptop Sales</h3>
+                    <p>Wide range of brand new and pre-owned laptops from top brands — HP, Dell, Lenovo, MacBook, ASUS and more.</p>
+                    <a href="https://wa.me/2349051984480?text=Hi!%20I'm%20interested%20in%20buying%20a%20laptop" class="service-link" target="_blank">Enquire Now →</a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-delay="100">
+                    <div class="service-icon">🔧</div>
+                    <div class="service-img"><img src="images/repair-service.png" alt="Laptop Repairs"></div>
+                    <h3>Expert Repairs</h3>
+                    <p>Professional diagnosis and repair for all laptop brands. Screen replacement, motherboard repair, keyboard fixes and more.</p>
+                    <a href="https://wa.me/2349051984480?text=Hi!%20I%20need%20a%20laptop%20repair" class="service-link" target="_blank">Book Repair →</a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-delay="200">
+                    <div class="service-icon">🔋</div>
+                    <div class="service-img"><img src="images/accessories.png" alt="Accessories"></div>
+                    <h3>Accessories</h3>
+                    <p>Genuine batteries, chargers, mice, cooling pads, laptop bags and all essential accessories for every laptop model.</p>
+                    <a href="https://wa.me/2349051984480?text=Hi!%20I%20need%20laptop%20accessories" class="service-link" target="_blank">Shop Now →</a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-delay="300">
+                    <div class="service-icon">⚙️</div>
+                    <div class="service-img"><img src="images/software-install.png" alt="Software Installation"></div>
+                    <h3>Software Installation</h3>
+                    <p>OS installation, antivirus setup, Microsoft Office, design tools, development software — professionally configured.</p>
+                    <a href="https://wa.me/2349051984480?text=Hi!%20I%20need%20software%20installation" class="service-link" target="_blank">Get Started →</a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-delay="400">
+                    <div class="service-icon">🎨</div>
+                    <div class="service-img"><img src="images/laptop-skins.png" alt="Laptop Skins"></div>
+                    <h3>Laptop Skins</h3>
+                    <p>Premium vinyl skins and custom designs to protect and personalise your laptop. Available for all models and sizes.</p>
+                    <a href="https://wa.me/2349051984480?text=Hi!%20I%20want%20a%20laptop%20skin" class="service-link" target="_blank">View Designs →</a>
+                </div>
+                <div class="service-card highlight" data-aos="fade-up" data-delay="500">
+                    <div class="service-icon">📞</div>
+                    <div class="service-glow"></div>
+                    <h3>Need Something Else?</h3>
+                    <p>Whatever your laptop needs, we can help. Reach out and let's discuss how we can solve your problem.</p>
+                    <a href="https://wa.me/2349051984480" class="service-link" target="_blank">Contact Us →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us" id="why-us">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Why Choose Us</span>
+                <h2 class="section-title">The <span class="text-gradient">Laptop Doctor</span> Difference</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-num">01</div>
+                    <h3>Expert Technicians</h3>
+                    <p>Skilled professionals with years of experience handling all laptop brands and models.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-num">02</div>
+                    <h3>Genuine Parts</h3>
+                    <p>We use only original and high-quality replacement parts for lasting results.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-num">03</div>
+                    <h3>Fast Turnaround</h3>
+                    <p>Most repairs are completed within 24-48 hours. We value your time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-num">04</div>
+                    <h3>Fair Pricing</h3>
+                    <p>Competitive and transparent pricing with no hidden charges.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-num">05</div>
+                    <h3>After-Sale Support</h3>
+                    <p>We stand behind our work with reliable warranty and ongoing support.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-num">06</div>
+                    <h3>All Brands Welcome</h3>
+                    <p>HP, Dell, Lenovo, MacBook, ASUS, Acer, Toshiba — we handle them all.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <span>HP ✦ DELL ✦ LENOVO ✦ MACBOOK ✦ ASUS ✦ ACER ✦ TOSHIBA ✦ SAMSUNG ✦ MSI ✦ MICROSOFT ✦ </span>
+            <span>HP ✦ DELL ✦ LENOVO ✦ MACBOOK ✦ ASUS ✦ ACER ✦ TOSHIBA ✦ SAMSUNG ✦ MSI ✦ MICROSOFT ✦ </span>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact <span class="text-gradient">Us</span></h2>
+                <p class="section-desc">Ready to get your laptop sorted? Reach out through any of these channels.</p>
+            </div>
+            <div class="contact-grid">
+                <a href="https://wa.me/2349051984480" class="contact-card whatsapp" target="_blank" id="contact-whatsapp">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>09051984480</p>
+                    <span class="contact-action">Chat Now →</span>
+                </a>
+                <a href="https://facebook.com/EricTech" class="contact-card facebook" target="_blank" id="contact-facebook">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </div>
+                    <h3>Facebook</h3>
+                    <p>Eric Tech</p>
+                    <span class="contact-action">Visit Page →</span>
+                </a>
+                <a href="mailto:erikanudoworen437@gmail.com" class="contact-card email" id="contact-email">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+                    </div>
+                    <h3>Email</h3>
+                    <p>erikanudoworen437@gmail.com</p>
+                    <span class="contact-action">Send Email →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="logo-icon">🔧</span>
+                <span class="logo-text">LAPTOP<span class="logo-accent">DOCTOR</span></span>
+                <p>Your trusted partner for all laptop solutions.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#why-us">Why Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Laptop Doctor — Eric Tech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/2349051984480" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp" id="floating-wa">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span class="wa-pulse"></span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
