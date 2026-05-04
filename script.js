@@ -66,7 +66,7 @@ function animateCounters() {
 
 // ===== Scroll Reveal =====
 function initScrollReveal() {
-    const elements = document.querySelectorAll('.service-card, .feature-card, .contact-card');
+    const elements = document.querySelectorAll('.service-card, .feature-card, .contact-card, .gallery-item');
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry, i) => {
             if (entry.isIntersecting) {
