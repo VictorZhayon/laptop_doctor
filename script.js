@@ -66,7 +66,7 @@ function animateCounters() {
 
 // ===== Scroll Reveal =====
 function initScrollReveal() {
-    const elements = document.querySelectorAll('.service-card, .feature-card, .contact-card, .gallery-item');
+    const elements = document.querySelectorAll('.service-card, .feature-card, .contact-card, .gallery-item, .testimonial-card');
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry, i) => {
             if (entry.isIntersecting) {
@@ -79,10 +79,23 @@ function initScrollReveal() {
     elements.forEach(el => observer.observe(el));
 }
 
+// ===== FAQ Accordion =====
+function initFaq() {
+    document.querySelectorAll('.faq-question').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const item = btn.parentElement;
+            const isActive = item.classList.contains('active');
+            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+            if (!isActive) item.classList.add('active');
+        });
+    });
+}
+
 // ===== Init =====
 document.addEventListener('DOMContentLoaded', () => {
     createParticles();
     initNavbar();
     animateCounters();
     initScrollReveal();
+    initFaq();
 });
